@@ -1,5 +1,6 @@
 # Out of Distribution Experiments
-This is the code repository for the paper "Out of Distribution Detection for Medical Images".
+This is the code repository for the paper 
+["Out of Distribution Detection for Medical Images"](https://link.springer.com/chapter/10.1007/978-3-030-87735-4_10).
 
 ## Setup
 
