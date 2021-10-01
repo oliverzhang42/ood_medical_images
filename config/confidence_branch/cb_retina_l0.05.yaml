@@ -1,0 +1,22 @@
+---
+# Experiment Arguments
+experiment_name: confidence_branch_retina_lambda_0.05
+iid_name: retina
+mode: confidence_branch
+ood_names: 
+  - skeletal-age
+  - mura
+  - mimic-cxr
+num_models: 5
+
+# Hyper Parameters
+num_epochs: 20
+batch_size: 64
+lmbda: 0.05
+hint_rate: 0.5
+
+# Training params
+lr: 0.0001
+early_stop: 5
+eval_start: 10
+num_workers: 8

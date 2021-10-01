@@ -1,0 +1,20 @@
+---
+# Experiment Arguments
+experiment_name: baseline_retina
+iid_name: retina
+mode: baseline
+ood_names: 
+  - skeletal-age
+  - mura
+  - mimic-cxr
+num_models: 5
+
+# Hyper Parameters
+num_epochs: 20
+batch_size: 64
+
+# Training params
+lr: 0.0001
+early_stop: 5
+eval_start: 10
+num_workers: 8
